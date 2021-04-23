@@ -1,5 +1,16 @@
 /*header*/ 
+.heberge a {
+    text-decoration: none;
 
+}
+
+.activité a {
+    text-decoration: none;
+}
+
+.sinscrire a {
+    text-decoration: none;
+}
 
 
 
@@ -7,9 +18,14 @@
 
 
 /*main*/
+
+/*fond bleu*/
 .fond {
     background-color: cornflowerblue;
 }
+/*fond bleu*/
+
+
 
 
 
@@ -30,8 +46,10 @@
     display: inline-flex;
     flex-direction: column;
     padding-top: 30px;
+    text-align: center;
 }
 
 .footer-colonne a {
     margin: 10px 0;
     text-decoration: none;
+    text-align: center;
