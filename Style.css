@@ -1,20 +1,35 @@
 /*header*/ 
-.heberge a {
+/*hebergement*/
+.heberge a{
     text-decoration: none;
-
+    display: inline;
 }
 
+.heberge {
+    display: inline;
+}
+/*hebergement*/
+
+/*activité*/
 .activité a {
-    text-decoration: none;
+ text-decoration: none;
+ display: inline;
+}
+
+.activité {
+    display: inline;
+}
+/*activité*/
+
+/*s'inscrire*/
+.sinscrire {
+
 }
 
 .sinscrire a {
     text-decoration: none;
 }
-
-
-
-
+/*s'inscrire*/
 
 
 /*main*/
