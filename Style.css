@@ -19,3 +19,17 @@
 
 
 /*footer*/
+
+.footer{
+    background-color: #f2f2f2;
+    padding: 0 20px;
+}
+
+.footer-colonne{
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.footer-colonne a{
+    margin: 10px 0;
