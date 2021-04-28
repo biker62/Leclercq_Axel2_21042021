@@ -4,6 +4,14 @@ a {
 
 
 /*header*/ 
+
+
+.recherche-gauche{
+    background-color:#454545; 
+    padding:20px; 
+    border-radius: 50%;
+}
+
 /*hebergement*/
 .heberge a{
     text-decoration: none;
