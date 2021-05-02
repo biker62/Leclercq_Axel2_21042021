@@ -109,55 +109,14 @@ a {
 }
 
 .hebergements figure img{
-    width: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    height: 7rem;
+    width: 10%;
+    max-width: 10%;
+    max-height: 10%;
+    height: 10rem;
     object-fit: cover;
     border-radius: 15px 15px 0 0 ;
+    
 }
-/*marqueur map */
-
-/*marqueur animaux autorisés*/
-
-
-
-/*marqueur animaux autorisés*/
-
-
-/*marqueur familial*/
-
-
-
-/*marqueur familial*/
-
-
-
-/*marqueur économie*/
-
-
-
-
-
-/*marqueur économie*/
-
-
-/*romantique*/
-
-
-
-
-/*romantique*/
-
-
-
-
-
-
-
-
-
-
 
 
 /*footer*/
