@@ -118,6 +118,34 @@ a {
     
 }
 
+/*populaires*/
+
+.populaires-hebergements{
+    grid-template-columns: 1fr;
+    background: grey;
+    padding: 15px;
+    column-gap: 20px;
+    row-gap: 20px;
+    width: 100%;
+    display: grid;
+}
+
+.hebergements-vignette-populaires img {
+    width: 10%;
+    max-width: 10%;
+    max-height: 10%;
+    height: 10rem;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0 ;
+}
+
+.hebergements-vignette-populaires{
+    border-radius: 15%;
+    padding: 5px;
+    height: 100%;
+    background-color: white;
+}
+/*populaires*/
 
 /*footer*/
 
