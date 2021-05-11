@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Raleway", "Sans serif";
+  margin: 0;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -54,6 +61,27 @@ header {
 
     /* RECHERCHE */
 
+    .container-bouton-rechercher {
+        background-color: #0065FC; 
+        color:#fff; 
+        padding:10px;
+        border-radius: 10px;
+    }
+
+    .bouton-rechercher{
+        display: none;
+    }
+
+    .fa-map-marker-alt {
+        color: #0065FC;
+        margin: 10px;
+    }
+    .recherche-gauche{
+        background-color:#f2f2f2; 
+        padding:1rem 1.25rem; 
+        border-radius: 1rem 0 0 1rem;  
+    }
+
     /* FILTRES */
 
     .filtre{
@@ -99,29 +127,34 @@ header {
             border-radius: 15px;
             padding: 5px;
             height: 100%;
-            background-color: white;
+            background-color: #f2f2f2;
             display: flex;
             align-items: stretch;
             overflow:auto;
             box-sizing: border-box;
         }        
 
-        .hebergements-vignette-populaires figure{
+        .hebergements-populaires-figure{
             margin: 0;
+            position: relative;
             min-height: 100%;
             width: 33%;
-            position : relative;
             min-width: 33%;
+            max-width: 33%;   
         }
 
-        .hebergements-vignette-populaires img {
+        .hebergements-populaires-figure img {
             height: 100%;
             width: 100%;
             object-fit: cover;
-            border-radius: 15px 15px 0 0 ;
+            border-radius: 15px 0 0 15px ;
             position:absolute;
         }
 
+        .hebergements-vignette-texte{
+            display: flex;
+            flex-direction: column;
+        }
 
         /* MARSEILLE */
 
@@ -139,16 +172,16 @@ header {
             border-radius: 15px;
             padding:5px;
             height: 100%;
-            background-color: white;
+            background-color: #f2f2f2;
             box-shadow: 0 0 16px #000000;
             box-sizing: border-box;
         }
 
-        .hebergements figure{
+        .hebergements-figure{
             margin: 0;
         }
 
-        .hebergements figure img{
+        .hebergements-figure img{
             width: 100%;
             max-height: 10%;
             height: 7rem;
@@ -156,103 +189,26 @@ header {
             border-radius: 15px 15px 0 0 ;    
         }
 
-        .hebergements figure h3{
+        .hebergements-figure h3{
             margin: 5px 0 0 5px;
         }
 
-        .hebergements p {
+        .hebergements-vignette p {
             margin: 2px 5px;
         }
 
-        .hebergements-notation{
+        .hebergement-notation{
             margin: 2px 5px;
         }
     /* ACTIVITES */
 
 /* FOOTER */
 
-
-/*header*/ 
-
-
-.recherche-gauche{
-    background-color:#f2f2f2; 
-    padding:1rem 1.25rem; 
-    border-radius: 1rem 0 0 1rem;
-   
-}
-
-/*hebergement*/
-.heberge a{
-    text-decoration: none;
-    display: inline;
-}
-
-.heberge {
-    display: inline;
-}
-/*hebergement*/
-
-/*activité*/
-.activité a {
- text-decoration: none;
- display: inline;
-}
-
-.activité {
-    display: inline;
-}
-/*activité*/
-
-/*s'inscrire*/
-
-.sinscrire a {
-    text-decoration: none;
-}
-/*s'inscrire*/
-
-
-/*main*/
-
-/*fond bleu*/
-.fond {
-    background-color: cornflowerblue;
-}
-/*fond bleu*/
-
-.container-bouton-rechercher {
-    background-color: #0065FC; 
-    color:#fff; 
-    padding:10px;
-    border-radius: 10px;
-}
-
-.bouton-rechercher{
-    display: none;
-}
-
-/*marqueur map*/
-.fa-map-marker-alt {
-    color: #0065FC;
-    margin: 10px;
-}
-
-
-
-
-
-
-
-/*populaires*/
-
-
-/*populaires*/
-
-/*footer*/
-
 .footer {
     background-color: #f2f2f2;
     padding: 0 30px;
+    display:flex; 
+    justify-content: space-between;
 }
 
 .footer-colonne {
@@ -267,3 +223,5 @@ header {
     text-decoration: none;
     text-align: center;
 }
+
+
